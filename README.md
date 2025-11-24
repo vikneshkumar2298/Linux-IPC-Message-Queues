@@ -76,31 +76,4 @@ int main()
 
 ## OUTPUT
 
-```
-gcc -o writer.o writer.c
-$ ./writer.o 
-Write Data : Helloworld
-Data send is : Helloworld
-```
-```
-gcc -o reader.o reader.c
-$ ./reader.o 
-Data Received is : Helloworld
-```
-```
-$ ipcs
------- Message Queues --------
-key        msqid      owner      perms      used-bytes   messages    
-0xffffffff 720896     root    666        560          5           
------- Shared Memory Segments --------
-key        shmid      owner      perms      bytes      nattch     status      
-0x00000000 262144     root       600        33554432   2          dest         
-0x00000000 360449     root       600        524288     2          dest         
-0x00000000 688130     root       600        524288     2          dest         
-0x00000000 622595     root       600        524288     2          dest         
-0x00000000 786436     root       600        524288     2          dest         
-0x00000000 655365     root       600        524288     2          dest         
-0x00000000 983046     root       600        524288     2          dest         
------- Semaphore Arrays --------
-key        semid      owner      perms      nsems
-````
+<img width="1046" height="730" alt="image" src="https://github.com/user-attachments/assets/4a43cfaf-a3fd-4b3f-9efa-6d57d2127da6" />
